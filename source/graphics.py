@@ -1,4 +1,4 @@
-from source.kinematics import Vector
+from kinematics import Vector
 import matplotlib.pyplot as plt
 
 

@@ -11,7 +11,7 @@ axes = mplot3d.Axes3D(figure)
 
 # Using an existing stl file:
 #my_mesh = mesh.Mesh.from_file('Cube (text).stl')
-my_mesh = mesh.Mesh.from_file('Frog.stl')
+my_mesh = mesh.Mesh.from_file('3d_models\Cat.stl')
 axes.add_collection3d(mplot3d.art3d.Poly3DCollection(my_mesh.vectors))
 
 # Auto scale to the mesh size

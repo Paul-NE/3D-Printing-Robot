@@ -163,8 +163,8 @@ class Window(Frame):
         self.ani = animation.FuncAnimation(self.fig, animate, frames=self.frms, fargs=(l, edges, fl_axises, joints, shadow, traec), interval=1, blit=False)
 
 
-
-root = tk.Tk()
-root.geometry("1200x700")
-app = Window(root)
-tk.mainloop()
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.geometry("1200x700")
+    app = Window(root)
+    tk.mainloop()
